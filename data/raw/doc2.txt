@@ -1,0 +1,8 @@
+Title: Chunking Explained
+
+Chunking is the process of splitting a long text into smaller pieces that are easier for models to handle. 
+
+Key points:
+- Chunks should have overlap to prevent losing context between pieces.
+- Chunk size is often measured in tokens, but character-based chunks work for small tests.
+- Proper chunking improves the relevance of retrieved information in RAG pipelines.

@@ -1,0 +1,40 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+
+.venv/
+env/
+venv/
+
+# Environment variables
+
+.env
+
+# Data files (generated)
+
+data/processed/
+*.json
+
+# Jupyter
+
+.ipynb_checkpoints/
+
+# Gradio cache
+
+gradio_cached_examples/
+
+# OS / Editor
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+
+*.log

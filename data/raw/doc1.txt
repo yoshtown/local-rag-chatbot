@@ -1,0 +1,12 @@
+Title: Introduction to RAG Chatbots
+
+Retrieval-Augmented Generation (RAG) is a technique where an AI model retrieves relevant pieces of information from documents or databases before generating an answer. 
+
+The process usually involves:
+1. Splitting documents into chunks.
+2. Converting chunks into vector embeddings.
+3. Storing embeddings in a searchable database.
+4. Using a retriever to find relevant chunks for a query.
+5. Passing the retrieved context to a language model to generate an answer.
+
+RAG is especially useful for answering questions over large collections of documents where the model alone may not have seen all the information.
