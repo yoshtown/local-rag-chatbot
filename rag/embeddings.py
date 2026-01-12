@@ -1,3 +1,5 @@
+# 2. Convert each chunk into a vector embedding.
+
 from pathlib import Path
 from typing import List, Dict
 import json

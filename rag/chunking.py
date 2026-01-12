@@ -1,3 +1,5 @@
+# 1. Break each document into chunks of roughly 300-500 characters.
+
 from pathlib import Path
 from typing import List, Dict
 import json

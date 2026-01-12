@@ -30,7 +30,7 @@ This is an **applied ML systems project**, not just an LLM demo.
 5. Retrieves top-K relevant chunks per query
 6. Injects retrieved context into a constrained prompt
 7. Generates answers using a **local LLM**
-8. Refuses to answer when information is missing
+8. Responds with a default message when information is missing.
 
 ---
 
@@ -65,7 +65,6 @@ local-rag-chatbot/
 │
 ├── app/
 │   ├── gradio_app.py
-│   └── gradio_app_multiturn.py
 │
 ├── data/
 │   ├── raw/

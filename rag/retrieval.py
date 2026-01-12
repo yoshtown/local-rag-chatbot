@@ -1,3 +1,5 @@
+# Retrieve the embedded chunks that are most closely matched to the meaning of the query.
+
 from pathlib import Path
 from typing import List, Dict
 import json
