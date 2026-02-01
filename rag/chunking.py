@@ -6,7 +6,7 @@ import json
 
 def load_text_files(data_dir: Path) -> List[Dict]:
 	"""
-	Load all *.txt files from a directory and return their contents
+	Load each *.txt file from a directory and return their contents
 	along with basic metadata.
 	"""
 	documents = []
@@ -38,7 +38,7 @@ def chunk_text(text: str, chunk_size: int=500, overlap: int=50) -> List[str]:
 
 def chunk_documents(documents: List[Dict]) -> List[Dict]:
 	"""
-	Chunk all documents and attach metadata to each chunk.
+	Chunk each document and attach metadata to each chunk.
 	"""
 	all_chunks = []
 

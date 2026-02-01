@@ -4,7 +4,7 @@ from typing import List, Dict
 from rag.retrieval import load_embeddings, retrieve
 from rag.synthesizer import build_prompt, generate_response
 
-# Paths to your stored embeddings
+# Paths to stored embeddings
 EMBEDDINGS_PATH = Path("data/processed/embeddings.json")
 
 # Load embeddings once at a module load

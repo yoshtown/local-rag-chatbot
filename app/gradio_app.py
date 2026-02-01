@@ -42,7 +42,7 @@ def chat(
 def launch_app():
     with gr.Blocks() as demo:
         gr.Markdown(
-            "## Local RAG Chatbot (Multi-turn) 🤖\n"
+            "## Local RAG Chatbot (Multi-turn) \n"
             "Ask questions and get grounded answers from your documents!"
         )
 
