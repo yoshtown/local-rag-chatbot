@@ -3,9 +3,7 @@
 from pathlib import Path
 
 from rag.chunking import load_text_files, chunk_documents, save_chunks
-from rag.embeddings import embed_chunks, save_embeddings
-from rag.chunking import load_chunks
-
+from rag.embeddings import load_chunks, embed_chunks, save_embeddings
 
 # ---- Paths ----
 RAW_DATA_DIR = Path("data/raw")
@@ -28,7 +26,6 @@ def main():
     save_chunks(chunks, CHUNKS_PATH)
 
     print("Loading chunks for embedding...")
-    # Re-load from disk to simulate real pipeline behavior
     loaded_chunks = load_chunks(CHUNKS_PATH)
 
     print("Generating embeddings...")

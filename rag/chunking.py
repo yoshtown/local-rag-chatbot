@@ -36,14 +36,14 @@ def chunk_text(text: str, chunk_size: int=500, overlap: int=50) -> List[str]:
 
 	return chunks
 
-def chunk_documents(documents: List[Dict]) -> List[Dict]:
+def chunk_documents(documents: List[Dict], chunk_size: int=500, overlap: int=50) -> List[Dict]:
 	"""
 	Chunk each document and attach metadata to each chunk.
 	"""
 	all_chunks = []
 
 	for doc in documents:
-		text_chunks = chunk_text(doc["text"])
+		text_chunks = chunk_text(doc["text"], chunk_size, overlap)
 
 		for i, chunk in enumerate(text_chunks):
 			all_chunks.append({
